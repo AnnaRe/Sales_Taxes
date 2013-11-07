@@ -5,7 +5,7 @@ IDE: DEV-C++ Version 4.9.9.2  (http://www.bloodshed.net/dev/devcpp.html)
 
 Programming language : C++
 
-Assumption :
+Assumptions :
 
 1) Display only output as given in problem
 
