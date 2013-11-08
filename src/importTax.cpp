@@ -1,15 +1,14 @@
 
-
 #include "importTax.h"
 using namespace std;
 
 
 double ImportTax:: returnPlus(Item  *item )
 {
+  bool isImported = item->getImported();
   
-  if(item->getImported()) return getTaxPlus(item->getShelfPrice());    
+  if(isImported) return getTaxPlus(item->getShelfPrice());    
   else return 0; 
-  
   
 }
 
