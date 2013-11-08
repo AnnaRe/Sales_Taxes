@@ -11,7 +11,7 @@ double ImportTax:: returnPlus(Item  *item )
   
 }
 
-ImportTax::ImportTax():Tax("Import duty", RATE)
+ImportTax::ImportTax():Tax("Import duty", IMPORTRATE)
 {
 
 }
