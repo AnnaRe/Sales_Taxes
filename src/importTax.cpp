@@ -1,4 +1,3 @@
-
 #include "importTax.h"
 using namespace std;
 
@@ -12,7 +11,7 @@ double ImportTax:: returnPlus(Item  *item )
   
 }
 
-ImportTax::ImportTax():Tax("import", RATE)
+ImportTax::ImportTax():Tax("Import duty", RATE)
 {
 
 }
